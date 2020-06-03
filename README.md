@@ -1,21 +1,9 @@
-# ais-ecommerce-demo-app
+# MintBean Hackathon - Game of Thrones Episode Search
 
-_This project was generated with [create-instantsearch-app](https://github.com/algolia/create-instantsearch-app) by [Algolia](https://algolia.com)._
+For this week's Hackathon, our objective was to use the Algolia (a search API) to create a site that searches a data set. I chose Game of Thrones. 
+
+The search bar edits as you type and will search for titles or the summary of the show. Unfrotuantely, the dataset I pulled had <p> tags in the description so it pulls those in as well (I did not want to waste any time editing each record). The slider allows you to limit the search to specific episodes.
 
 ## Get started
 
-To run this project locally, install the dependencies and run the local server:
-
-```sh
-npm install
-npm start
-```
-
-Alternatively, you may use [Yarn](https://http://yarnpkg.com/):
-
-```sh
-yarn
-yarn start
-```
-
-Open http://localhost:3000 to see your app.
+![Landing Page](https://i.imgur.com/2J7Bpi9.png):
