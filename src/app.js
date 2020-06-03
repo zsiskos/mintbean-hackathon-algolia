@@ -1,6 +1,6 @@
 /* global algoliasearch instantsearch */
 
-const searchClient = algoliasearch('95HZZXC3SI', '87e85b8c8c79e8b86be58576229d0441');
+const searchClient = algoliasearch('95HZZXC3SI', '5cb8fb4d97fe37d2622e36a234266ed0');
 
 const search = instantsearch({
   indexName: 'mbhackathon_API',
