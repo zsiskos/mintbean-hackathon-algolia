@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="shortcut icon" href="./favicon.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css">
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/app.css">
+
+  <title>Game of Thrones Episode Search</title>
+</head>
+  <body>
+    <div class="ais-InstantSearch">
+      <h1 class='title'>Game of Thrones Episodes</h1>
+      <div class="right-panel">
+        <div id="searchbox"></div>
+        <h2>Season Selector</h2>
+        <div id="current-refinements"></div>
+        <div id="range-slider"></div>
+        <div id="characters"></div>
+        <div id="pagination"></div>
+        <div id="hits"></div>
+      </div>
+      <!-- <div class="left-panel">
+    
+        <h2>Characters</h2>
+        <div id="characters"></div>
+      </div> -->
+      <h1 class='footer'>
+        <a href="https://github.com/zsiskos/mintbean-hackathon-tell-my-story" target="_blank">Built by zoë.Supernova </a>
+      </h1>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3.32.0/algoliasearchLite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.5.0"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>

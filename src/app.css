@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+body { font-family: sans-serif; padding: 1em; background: #5c2379}
+.title {font-family: 'Cinzel Decorative', cursive; font-size: 4rem; color: white; text-align: center;}
+h2 {font-family: 'Cinzel Decorative', cursive; font-size: 2rem; color: white; margin: 0;}
+.ais-ClearRefinements { margin: 1em 0; }
+.ais-SearchBox { margin: 1em 0; }
+.ais-RangeSlider { margin: 0 3rem; color: white;}
+.ais-Pagination { margin: 1em; color: white;  }
+.ais-Pagination-link {color: white;}
+.ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto; }
+.ais-Hits-item { margin-bottom: 1em; width: calc(50% - 1rem); }
+.ais-Hits-item img { margin-right: 2em; border: 1px solid white; border-radius: 1rem; }
+.hit-name { margin-bottom: 0.5em; font-size: 2rem; font-weight: 800; color:  rgb(252, 252, 252);;}
+.hit-description { color: rgb(252, 252, 252); font-size: 1rem; margin-bottom: 0.5em; }
+.ais-CurrentRefinements {margin: 1rem;}
+.footer {text-align: center; font-family: 'Cinzel Decorative', cursive; margin: 2rem;}
+a {color: white; text-decoration: none; font-size: 1.75rem;}
+a:hover{color: #0096db}
