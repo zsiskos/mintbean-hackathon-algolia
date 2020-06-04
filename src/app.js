@@ -22,7 +22,7 @@ search.addWidgets([
         {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
         </div>
         <img src="{{image.medium}}" align="left" alt="{{name}}" />
-          <div class="hit-description">
+        <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}
           </div>
         </div>

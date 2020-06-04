@@ -10,7 +10,7 @@ h2 {font-family: 'Cinzel Decorative', cursive; font-size: 2rem; color: white; ma
 .ais-Pagination-link {color: white;}
 .ais-InstantSearch { max-width: 960px; overflow: hidden; margin: 0 auto; }
 .ais-Hits-item { margin-bottom: 1em; width: calc(50% - 1rem); }
-.ais-Hits-item img { margin-right: 2em; border: 1px solid white; border-radius: 1rem; }
+.ais-Hits-item img { margin-right: 2em; border: 1px solid white; border-radius: 1rem; max-width: 100%; height: auto;}
 .hit-name { margin-bottom: 0.5em; font-size: 2rem; font-weight: 800; color:  rgb(252, 252, 252);;}
 .hit-description { color: rgb(252, 252, 252); font-size: 1rem; margin-bottom: 0.5em; }
 .ais-CurrentRefinements {margin: 1rem;}
